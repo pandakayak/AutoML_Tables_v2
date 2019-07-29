@@ -8,7 +8,8 @@ The objective of this repo is to validate the capabilities of AutoML Tables for 
 
 We will use Chicago Taxi Trip dataset, to predict the Chicago taxi fare in AutoML Tables. We will focus on testing the following capabilities: easy-to-build models, easy-to-deploy and scale models, and flexible user options.
 
-## Data pre-processing [Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)]
+## Data pre-processing 
+Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 
 Reference code: 
 * *data_prep.py* --- A Python Scripts, aim to perform data cleaning and feature selections. 
@@ -147,6 +148,27 @@ The training dataset imported from Google BigQuery consists of 27,589 rows by 11
 #### Test Data (The 2019 ride data)
 
 2421 rows by 11 columns. 
+
+## The Dataset
+
+reference code: <br/>
+*dataset.py* --- A Python Scripts, aim to import training dataset to AutoML Tables.
+
+### Step 1: Create an empty AutoML Dataset
+```bash
+python dataset.py create_dataset --dataset_name train
+```
+
+
+
+
+
+
+
+
+
+
+
  
 ## The Model
 The .ipynb file contains 7 sessions
