@@ -28,29 +28,43 @@ red: most frequent => popular location<br/>
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG" width="800" height="400" /> 
 
+==> Downtown and airport areas have the most pickups.
+
 ***Q2: Which regions have most dropoff?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p2.PNG" width="800" height="400" /> 
+
+==> Downtown and airport areas have the most dropoffs.
 
 ***Q3: What region has more expensive pickup?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG" width="800" height="400" /> 
 
+==> Non-downtown and airport areas have the most pickups.
+
 ***Q4: What region has more expensive dropoff?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p4.PNG" width="800" height="400" /> 
+
+==> Non-downtown and airport areas have the most dropoffs.
 
 ***Q5: When are the peak hours and off-peak hours for taking taxi?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG" width="600" height="300" /> 
 
+==> Daytime hours have the most pickups and dropoffs.
+
 ***Q6: What is the peak day and off-peak day in a month for taking taxi?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG" width="600" height="300" /> 
 
-***Q7: When are the peak day and off-peak day in a week for price? In terms of pickup***
+==> No clear pattern found according to the visualization.
+
+***Q7: When are the peak day and off-peak day in a week for rides? In terms of pickup***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG" width="600" height="300" /> 
+
+==> Friday is the peak day.
 
 ***Q8: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 Year 2016
@@ -62,6 +76,8 @@ Year 2018
 Year 2019
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p8_19.PNG)
 
+==> The taxi demands in US holidays seem lower than normal days.
+
 ***Q9: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p9.PNG" width="500" height="360" /> 
@@ -70,9 +86,17 @@ Year 2019
 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG" width="600" height="300" /> 
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG" width="600" height="300" /> 
+
+==> Long-distance trips always occur in night time.
+
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG" width="600" height="300" /> 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG" width="600" height="300" />
+
+==> No clear patter found.
+
 <img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG" width="600" height="300" /> 
+
+==> There is trend of the avg trip miles, followed by the day order each year.
 
 
 
