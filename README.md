@@ -42,15 +42,15 @@ red: most frequent => popular location<br/>
 
 ***Q5: When are the peak hours and off-peak hours for taking taxi?***
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG" width="600" height=300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG" width="600" height="300" /> 
 
 ***Q6: What is the peak day and off-peak day in a month for taking taxi?***
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG" width="600" height=300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG" width="600" height="300" /> 
 
 ***Q7: When are the peak day and off-peak day in a week for price? In terms of pickup***
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG" width="600" height=300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG" width="600" height="300" /> 
 
 ***Q8: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 Year 2016
@@ -68,11 +68,11 @@ Year 2019
 
 ***Q10: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG" width="600" height=300" /> 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG" width="600" height=300" /> 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG" width="600" height=300" /> 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG" width="600" height=300" /> 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG" width="600" height=300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG" width="600" height="300" /> 
 
 
 
