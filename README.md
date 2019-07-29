@@ -25,21 +25,26 @@ yellow: more frequent than green, but less frequent than orange<br/>
 orange: more frequent than yellow, but less frequent than red<br/>
 red: most frequent => popular location<br/>
 
-**Q1: Which regions have most pickups?**
+***Q1: Which regions have most pickups?***
+
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG)
 
-**Q2: Which regions have most dropoff?**
+***Q2: Which regions have most dropoff?***
+
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p2.PNG)
 
 #### Discover btween location and fare price, via Chicago map.
 
-**Q3: What region has more expensive pickup?**
+***Q3: What region has more expensive pickup?***
+
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG)
 
-**Q4: What region has more expensive dropoff?**
+***Q4: What region has more expensive dropoff?***
+
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p4.PNG)
 
-**Q5: When are the peak hours and off-peak hours for taking taxi?**
+***Q5: When are the peak hours and off-peak hours for taking taxi?***
+
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG)
 
 ***Summary of data exploratory***
