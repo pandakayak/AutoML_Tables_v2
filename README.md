@@ -8,7 +8,7 @@ The objective of this repo is to validate the capabilities of AutoML Tables for 
 
 We will use Chicago Taxi Trip dataset, to predict the Chicago taxi fare in AutoML Tables. We will focus on testing the following capabilities: easy-to-build models, easy-to-deploy and scale models, and flexible user options.
 
-## The Data pre-processing
+## Data pre-processing
 
 Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 
@@ -98,14 +98,22 @@ Year 2019
 
 ==> There is trend of the avg trip miles, followed by the day order each year.
 
-
-
-
 ***Summary of data exploratory***
 1. It confirms that location will affect the fare price, and the popular pickup/dropoff location always has lowest fare price, except airport.<br/>
-2. 
+2. Time-related feature do show patterns to fare price, and may contain outliers. <br/>
 
+### Outlier detection (Apply Isolation Forest Algorithm)
 
+**Isolation Forest Score Distribution**
+
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p11.PNG" width="600" height="300" /> 
+
+**Before outliers detection**
+
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p12.PNG" width="600" height="600" /> 
+
+**After outliers detection**
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p13.PNG" width="600" height="600" /> 
 
 
 
