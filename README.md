@@ -171,11 +171,11 @@ echo $dataset_id
 python dataset.py list_datasets
 ```
 ### Import training dataset
-```css
+```bash
 python dataset.py import_data --dataset_id $dataset_id --path "bq://hackathon1-183523.demo3_v2.train
 ```
 ### Schema Review
-```css
+```bash
 python dataset.py schema_review --dataset_name "$dataset_name"
 ```
 ### List table spec info
@@ -185,21 +185,21 @@ python dataset.py list_table_specs --dataset_id $dataset_id
 table_spec_id="$(cat /tmp/list_table_specs_output | grep -oP '(?<=Table spec id: ).*')"
 ```
 ### List column spec info
-```css
+```bash
 python dataset.py list_column_specs --dataset_id $dataset_id --table_spec_id $table_spec_id
 
 target_col_spec_id="$(cat /tmp/list_column_specs_output | grep -oP '(?<=Target column spec_id: ).*')"
 ```
 ### Update dataset
-```css
+```bash
 python dataset.py update_dataset --dataset_id $dataset_id --target_column_spec_id $target_col_spec_id
 ```
 ### list model
-```css
+```bash
 python model.py list_models
 ```
 ### Train model
-```css
+```bash
 python model.py create_model --dataset_id $dataset_id --model_name demo3_v2 --train_budget_milli_node_hours 5000
 
 ```
