@@ -154,14 +154,29 @@ The training dataset imported from Google BigQuery consists of 27,589 rows by 11
 reference code: <br/>
 *dataset.py* --- A Python Scripts, aim to import training dataset to AutoML Tables.
 
-### Step 1: Create an empty AutoML Dataset
-```css
+### Create an empty AutoML Dataset
+```bash
 # create a dataset named 'train'
 python dataset.py create_dataset --dataset_name train
-# get the 'dataset_id' for further execution
+
+# save info for further execution
 dataset_id="$(cat /tmp/create_dataset_output | grep -oP '(?<=Dataset id: ).*')"
+dataset_name="$(cat /tmp/create_dataset_output | grep -oP '(?<=Dataset name: ).*')"
+
 # check if 'data_id' is saved successfully 
 echo $dataset_id
+```
+### List exisiting dataset in AutoML Tables
+```bash
+python dataset.py list_datasets
+```
+### Import training dataset
+```css
+python dataset.py import_data --dataset_id $dataset_id --path "bq://hackathon1-183523.demo3_v2.train
+```
+### Schema Review
+```css
+python dataset.py schema_review --dataset_name "$dataset_name"
 ```
 
 
