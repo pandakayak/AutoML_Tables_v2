@@ -26,7 +26,7 @@ red: most frequent => popular location<br/>
 
 ***Q1: Which regions have most pickups?***
 
-! [](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG =24x48) 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG" width="24" height="12" /> 
 
 ***Q2: Which regions have most dropoff?***
 
