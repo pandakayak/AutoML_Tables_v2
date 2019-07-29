@@ -36,7 +36,7 @@ red: most frequent => popular location<br/>
 **Q3: What region has more expensive pickup?**
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG)
 
-**Q4: What region has more expensive dropoff?**
+<font color='green'>Q4: What region has more expensive dropoff?</font>
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p4.PNG)
 
 
