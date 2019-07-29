@@ -8,22 +8,33 @@ The objective of this repo is to validate the capabilities of AutoML Tables for 
 
 We will use Chicago Taxi Trip dataset, to predict the Chicago taxi fare in AutoML Tables. We will focus on testing the following capabilities: easy-to-build models, easy-to-deploy and scale models, and flexible user options.
 
-## The Data 
+## The Data pre-processing
 
-1M rows were extracted from BigQuery(upload from local) using SQL.
 Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 
-### Preparing the Data
-1. Implement by data_prep.py and data_cleaning.ipynb <br/>
-   --- *data_prep.py*: A Python scripts, included necessary define functions to clean the raw data; <br/>
-   --- *data_cleaning.ipynb*: A Jupyter Notebook, used to execute data_prep.py to prepare train and test datasets.
-   
-2. Some useful visualizations: ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG)
- 
-3. After proper feature engineering, finally got a training dataset(22578 rows) and a test dataset(1496 rows) with 13 features(columns).
+### Raw Data
+
+1M rows were extracted from BigQuery(upload from local) using SQL.
+
+### Data Exploratory
+
+1. Q1: Which regions have most pickups? <br/>
+![alt text](https://github.com/pandakayak/AutoML_Tables/blob/master/image/p1.PNG)
+
+
+
+
+
+
+
+
+
+
+
+After proper feature engineering, finally got a training dataset(27589 rows) and a test dataset(2421 rows) with 11 features(columns).
 
 ### Training & Test Datasets
-We used 12 features to predict the fare price per mile (in dollars). 
+We used 10 features to predict the fare price per mile (in dollars). 
 
 Predictor Features:
 
@@ -50,6 +61,10 @@ Per AutoML Tables beginner’s guide, by default, the training data we imported 
 ## The Model
 The .ipynb file contains 7 sessions
 
+
+1. Implement by data_prep.py and data_cleaning.ipynb <br/>
+   --- *data_prep.py*: A Python scripts, included necessary define functions to clean the raw data; <br/>
+   --- *data_cleaning.ipynb*: A Jupyter Notebook, used to execute data_prep.py to prepare train and test datasets.
 ### session 1: The data--gathering and preparing
 1. extracted data from GCP BigQuery as 2 Pandas dataframe, named train and test
 2. general data analysis lookup
