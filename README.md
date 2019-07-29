@@ -30,27 +30,27 @@ red: most frequent => popular location<br/>
 
 ***Q2: Which regions have most dropoff?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p2.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p2.PNG" width="800" height="400" /> 
 
 ***Q3: What region has more expensive pickup?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG" width="800" height="400" /> 
 
 ***Q4: What region has more expensive dropoff?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p4.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p4.PNG" width="800" height="400" /> 
 
 ***Q5: When are the peak hours and off-peak hours for taking taxi?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG" width="400" height="250" /> 
 
 ***Q6: What is the peak day and off-peak day in a month for taking taxi?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG" width="400" height="250" /> 
 
 ***Q7: When are the peak day and off-peak day in a week for price? In terms of pickup***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG" width="400" height="250" /> 
 
 ***Q8: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 Year 2016
@@ -64,15 +64,16 @@ Year 2019
 
 ***Q9: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p9.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p9.PNG" width="400" height="400" /> 
 
 ***Q10: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
 
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG)
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG)
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG)
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG)
-![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG)
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG" width="400" height="200" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG" width="400" height="200" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG" width="400" height="200" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG" width="400" height="200" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG" width="400" height="200" /> 
+
 
 
 
