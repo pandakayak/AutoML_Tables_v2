@@ -110,12 +110,13 @@ Year 2019
 
 **Before outliers detection**
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p12.PNG" width="600" height="600" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p12.PNG" width="300" height="300" /> 
 
 **After outliers detection**
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p13.PNG" width="600" height="600" /> 
 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p13.PNG" width="300" height="300" /> 
 
+==> **Data Removing Criterion: remove the rows in the dataset which the outlier score is larger than 0.04 and smaller than 0.1.**
 
 
 
