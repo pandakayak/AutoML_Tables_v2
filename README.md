@@ -8,13 +8,18 @@ The objective of this repo is to validate the capabilities of AutoML Tables for 
 
 We will use Chicago Taxi Trip dataset, to predict the Chicago taxi fare in AutoML Tables. We will focus on testing the following capabilities: easy-to-build models, easy-to-deploy and scale models, and flexible user options.
 
-## Data pre-processing
+## Data pre-processing [Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)]
 
-Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
+Reference code: 
+* *data_prep.py* --- A Python Scripts, aim to perform data cleaning and feature selections. 
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/data_prep.py
+
+* *data_pre-processing.ipynb* --- A Jupyter Notebook, used to implement data_prep.py. 
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/data_pre-processing.ipynb
 
 ### Raw Data
 
-1M rows were extracted from BigQuery(upload from local) using SQL.
+Ride data since after year 2016, were extracted from BigQuery using SQL.
 
 ### Data Exploratory
 
@@ -118,36 +123,30 @@ Year 2019
 
 ==> **Data Removing Criterion: remove the rows in the dataset which the outlier score is larger than 0.04 and smaller than 0.1.**
 
-
-
-
-
-After proper feature engineering, finally got a training dataset(27589 rows) and a test dataset(2421 rows) with 11 features(columns).
+**After proper feature selection, finally got a training dataset(27,589 rows) and a test dataset(2421 rows) with 11 features(columns).**
 
 ### Training & Test Datasets
 We used 10 features to predict the fare price per mile (in dollars). 
 
 Predictor Features:
 
-* hour (hour of the day)
-* pickup_latitude
-* pickup_longitude
-* dropoff_latitude
-* dropoff_longitude
-* weekday (day of the week)
-* is_luxury(if the company tend to provide premium services)
-* k2(cluster of the driver based on the clustering results)
+* start_hour: the hour the trip starts
+* end_hour: the hour the trip ends
+* pickup_latitude: pickup latitude
+* pickup_longitude: pickup logtitude, associated with pickup latitude
+* dropoff_latitude: dropoff latitude
+* dropoff_longitude: dropoff longtitude, associated with dropoff latitude
+* dayOfWeek: day of a week (Monday-Sunday: 1-7)
+* trip_miles: the distance of each ride, calculated by mile
+* trip_seconds: the duration of each ride, claculated by second
+* dayOfYear: the day order in a year, from 1-365
 
+#### Training Data (The ride data from year 2016 to the end of 2018)
+The training dataset imported from Google BigQuery consists of 27,589 rows by 11 columns (10 predictors + 1 target).
 
-#### Training Data
-The training dataset imported from Google BigQuery consists of 58321 rows by 9 columns (8 predictors + 1 target).
-Per AutoML Tables beginner’s guide, by default, the training data we imported to AutoML Tables will be split into 80% training, 10% validation, and 10% test sets, and  we can manually edit those values if necessary. 
-(Source: https://cloud.google.com/automl-tables/docs/beginners-guide)
+#### Test Data (The 2019 ride data)
 
-
-#### Test Data
-
-100 rows by 9 columns, and some rows contain null(for evaluation purpose). 
+2421 rows by 11 columns. 
  
 ## The Model
 The .ipynb file contains 7 sessions
