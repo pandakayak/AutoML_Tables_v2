@@ -19,7 +19,7 @@ Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 ### Data Exploratory
 
 1. Q1: Which regions have most pickups? <br/>
-![alt text](https://github.com/pandakayak/AutoML_Tables/blob/master/image/p1.PNG)
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG)
 
 
 
