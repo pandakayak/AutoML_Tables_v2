@@ -18,8 +18,7 @@ Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 
 ### Data Exploratory
 
-#### Discover btween location and ride frequency, via Chicago map.
-Notes: 
+Notes of the Chicago Open Street Map: 
 green: less frequent<br/>
 yellow: more frequent than green, but less frequent than orange<br/>
 orange: more frequent than yellow, but less frequent than red<br/>
@@ -33,8 +32,6 @@ red: most frequent => popular location<br/>
 
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p2.PNG)
 
-#### Discover btween location and fare price, via Chicago map.
-
 ***Q3: What region has more expensive pickup?***
 
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p3.PNG)
@@ -46,6 +43,38 @@ red: most frequent => popular location<br/>
 ***Q5: When are the peak hours and off-peak hours for taking taxi?***
 
 ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p5.PNG)
+
+***Q6: What is the peak day and off-peak day in a month for taking taxi?***
+
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p6.PNG)
+
+***Q7: When are the peak day and off-peak day in a week for price? In terms of pickup***
+
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p7.PNG)
+
+***Q8: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
+Year 2016
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p8_16.PNG)
+Year 2017
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p8_17.PNG)
+Year 2018
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p8_18.PNG)
+Year 2019
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p8_19.PNG)
+
+***Q9: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
+
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p9.PNG)
+
+***Q10: When are the peak day and off-peak day in a year for price? In terms of pickup? Does holiday affect the taxi demands?***
+
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_1.PNG)
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_2.PNG)
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_3.PNG)
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_4.PNG)
+![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p10_5.PNG)
+
+
 
 ***Summary of data exploratory***
 1. It confirms that location will affect the fare price, and the popular pickup/dropoff location always has lowest fare price, except airport.<br/>
