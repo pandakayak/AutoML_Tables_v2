@@ -155,8 +155,13 @@ reference code: <br/>
 *dataset.py* --- A Python Scripts, aim to import training dataset to AutoML Tables.
 
 ### Step 1: Create an empty AutoML Dataset
-```bash
+```css
+# create a dataset named 'train'
 python dataset.py create_dataset --dataset_name train
+# get the 'dataset_id' for further execution
+dataset_id="$(cat /tmp/create_dataset_output | grep -oP '(?<=Dataset id: ).*')"
+# check if 'data_id' is saved successfully 
+echo $dataset_id
 ```
 
 
