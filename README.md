@@ -15,8 +15,8 @@ Source: (https://www.kaggle.com/chicago/chicago-taxi-trips-bq)
 
 ### Preparing the Data
 1. Implement by data_prep.py and data_cleaning.ipynb <br/>
-   --- <u>data_prep.py</u>: A Python scripts, included necessary define functions to clean the raw data; <br/>
-   --- <u>data_cleaning.ipynb</u>: A Jupyter Notebook, used to execute data_prep.py to prepare train and test datasets.
+   --- * data_prep.py *: A Python scripts, included necessary define functions to clean the raw data; <br/>
+   --- * data_cleaning.ipynb *: A Jupyter Notebook, used to execute data_prep.py to prepare train and test datasets.
    
 2. Some useful visualizations: ![alt text](https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p1.PNG)
  
