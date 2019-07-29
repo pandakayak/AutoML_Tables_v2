@@ -178,11 +178,31 @@ python dataset.py import_data --dataset_id $dataset_id --path "bq://hackathon1-1
 ```css
 python dataset.py schema_review --dataset_name "$dataset_name"
 ```
+### List table spec info
+```css
+python dataset.py list_table_specs --dataset_id $dataset_id
 
+table_spec_id="$(cat /tmp/list_table_specs_output | grep -oP '(?<=Table spec id: ).*')"
+```
+### List column spec info
+```css
+python dataset.py list_column_specs --dataset_id $dataset_id --table_spec_id $table_spec_id
 
+target_col_spec_id="$(cat /tmp/list_column_specs_output | grep -oP '(?<=Target column spec_id: ).*')"
+```
+### Update dataset
+```css
+python dataset.py update_dataset --dataset_id $dataset_id --target_column_spec_id $target_col_spec_id
+```
+### list model
+```css
+python model.py list_models
+```
+### Train model
+```css
+python model.py create_model --dataset_id $dataset_id --model_name demo3_v2 --train_budget_milli_node_hours 5000
 
-
-
+```
 
 
 
