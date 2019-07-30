@@ -285,7 +285,7 @@ https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Jupyter%20Notebooks/m
 
 Below is the 100 sample predictions(predict price per mile) plot, compared with actual price per mile
 
-<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p14.PNG" width="600" height="300" /> 
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p14.PNG" width="800" height="450" /> 
  
 
 ## reference:
