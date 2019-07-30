@@ -3,11 +3,12 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-sns.set_style("whitegrid")
+sns.set_style("dark")
 sns.set_palette("muted")
 get_ipython().run_line_magic('matplotlib', 'inline')
 import warnings
 warnings.filterwarnings('ignore')
+from IPython.display import display
 
 def get_raw(sql):
     
@@ -66,7 +67,7 @@ def map_visualization(dataframe, long, lat, name, divisor):
                                    )
         
         folium.CircleMarker(location = [lat, long], popup= popup_text,radius = radius, color = color, fill = True).add_to(map_viz)
-
+        
     return map_viz
 
 
