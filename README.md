@@ -152,7 +152,8 @@ The training dataset imported from Google BigQuery consists of 27,589 rows by 11
 ## The Dataset
 
 reference code: <br/>
-*dataset.py* --- A Python Scripts, used to import training dataset to AutoML Tables, set target column, etc
+*dataset.py* --- A Python Scripts, used to import training dataset to AutoML Tables, set target column, etc<br/>
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Python%20scripts/dataset.py
 
 ### Create an empty AutoML Dataset
 ```bash
@@ -210,7 +211,8 @@ python dataset.py update_dataset --dataset_id $dataset_id --target_column_spec_i
 ## The Model
 
 reference code: <br/>
-*model.py* --- A Python Scripts, used to list model, create model, display model evaluations, etc.
+*model.py* --- A Python Scripts, used to list model, create model, display model evaluations, etc.<br/>
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Python%20scripts/model.py
 
 ### list model
 ```bash
@@ -261,7 +263,8 @@ python model.py deploy_model --model_id $model_id
 ## The Prediction
 
 reference code: <br/>
-*predict.py* --- A Python Scripts, aim to make online/batch prediction.
+*predict.py* --- A Python Scripts, aim to make online/batch prediction.<br/>
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Python%20scripts/predict.py
 
 ### Batch prediction
 ```bash
@@ -270,13 +273,15 @@ python predict.py batch_predict --model_id $model_id --input_path [Enter the pat
 ### Online prediction
 ```bash
 python predict.py predict --model_id $model_id --file_path 'test.csv'
-
-curl -X POST -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $(gcloud auth application-default print-access-token)" \
-  https://automl.googleapis.com/v1beta1/projects/hackathon1-183523/locations/us-central1/models/$model_id:predict \
-  -d @request.json
 ```
 
+## The Full version of bash code
+
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/credentials.sh
+
+## The Model Evaluation, based on batch prediction 
+
+https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Jupyter%20Notebooks/model_eval_visualization.ipynb
  
 
 ## reference:
