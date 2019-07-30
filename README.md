@@ -152,7 +152,7 @@ The training dataset imported from Google BigQuery consists of 27,589 rows by 11
 ## The Dataset
 
 reference code: <br/>
-*dataset.py* --- A Python Scripts, aim to import training dataset to AutoML Tables.
+*dataset.py* --- A Python Scripts, used to import training dataset to AutoML Tables, set target column, etc
 
 ### Create an empty AutoML Dataset
 ```bash
@@ -206,6 +206,12 @@ python dataset.py get_table_spec --dataset_id $dataset_id --table_spec_id $table
 ```bash
 python dataset.py update_dataset --dataset_id $dataset_id --target_column_spec_id $target_col_spec_id
 ```
+
+## The Model
+
+reference code: <br/>
+*model.py* --- A Python Scripts, used to list model, create model, display model evaluations, etc.
+
 ### list model
 ```bash
 python model.py list_models
@@ -251,13 +257,24 @@ python model.py display_evaluation --model_id $model_id
 ```bash
 python model.py deploy_model --model_id $model_id
 ```
+
+## The Prediction
+
+reference code: <br/>
+*predict.py* --- A Python Scripts, aim to make online/batch prediction.
+
 ### Batch prediction
 ```bash
 python predict.py batch_predict --model_id $model_id --input_path [Enter the path store the test dataset] --output_path [Declare an output path in GCP Bucket or BigQuery]
 ```
 ### Online prediction
 ```bash
-python predict.py predict --model_id $model_id --file_path [Enter the path store the test dataset]
+python predict.py predict --model_id $model_id --file_path 'test.csv'
+
+curl -X POST -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $(gcloud auth application-default print-access-token)" \
+  https://automl.googleapis.com/v1beta1/projects/hackathon1-183523/locations/us-central1/models/$model_id:predict \
+  -d @request.json
 ```
 
  
