@@ -180,7 +180,7 @@ python dataset.py import_data --dataset_id $dataset_id --path "[Enter your GCP B
 python dataset.py schema_review --dataset_name "$dataset_name" 
 ```
 ### List table spec info
-```css
+```bash
 python dataset.py list_table_specs --dataset_id $dataset_id > /tmp/list_table_specs_output
 
 # save 'table_Spec_id' for further execution
@@ -282,6 +282,10 @@ https://github.com/pandakayak/AutoML_Tables_v2/blob/master/credentials.sh
 ## The Model Evaluation, based on batch prediction 
 
 https://github.com/pandakayak/AutoML_Tables_v2/blob/master/Jupyter%20Notebooks/model_eval_visualization.ipynb
+
+Below is the 100 sample predictions(predict price per mile) plot, compared with actual price per mile
+
+<img src="https://github.com/pandakayak/AutoML_Tables_v2/blob/master/image/p14.PNG" width="600" height="300" /> 
  
 
 ## reference:
